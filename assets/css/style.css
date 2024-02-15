@@ -197,4 +197,22 @@ footer {
     main {
         margin-top: 75px;
     }
+
+    /* Benefits section */
+
+    #customized-program, 
+    #technical-correction {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #customized-program > div,
+    #technical-correction > div {
+        width: 75%;
+    }
+
+    #technical-correction {
+        align-self: flex-end;
+    }
 }
