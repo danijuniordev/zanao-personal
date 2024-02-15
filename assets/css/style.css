@@ -17,6 +17,11 @@ body {
     text-transform: uppercase;
 }
 
+h1, h2, h3 {
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
 /* Header */
 header {
     background-color: #000000;
@@ -80,7 +85,7 @@ nav {
 /* Main content */
 main {
     flex: 1 0 auto;
-    margin-top: 38px;
+    margin-top: 75px;
     background-color: #000000;
 }
 
@@ -103,12 +108,12 @@ main {
 }
 
 /* Reasons section */
-#reaspersonal-textons {
+.personal-text {
     width: 90%;
     margin: 20px auto;
 }
 
-#personal-text h2 {
+.personal-text h2 {
     margin: 20px;
     text-align: center;
     font-size: 150%;
@@ -172,33 +177,33 @@ footer {
     color: #0e469b;
 }
 
-/* Hero section */
+/* Hero section about me*/
 
 #hero-about {
-    height: 700px;
+    height: 600px;
     width: 100%;
     background: url("../images/background-about.png") no-repeat center center;
-}
-
-#zanaophoto {
-    height: 650px;
-    width: 100%;
-    background: url("../images/personal.webp.png") no-repeat center center;
-    background-color: black;
     position: relative;
 }
 
-/* About me page */ 
-
-#hero-about h1 {
-    text-align: center;
-    background-color: #0e469b;
+/* Cover text about section */
+#cover-text {
+    position: absolute;
+    top: 50%; 
+    left: 0%; 
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    width: 60%;
+    min-height: 200px;
 }
 
-#hero-about p {
-    text-align: center;
+#cover-text > h2 {
+    font-size: 30px;
+    padding: 20px;
 }
 
+#cover-text > p {
+    padding: 20px;
+}
 /* Media query: tablets and larger (860px and up) */
 @media screen and (min-width: 860px) {
     /* header */
@@ -251,6 +256,30 @@ footer {
         align-self: flex-end;
     }
 
+    /* about section */
+
+    #cover-text {
+        position: absolute;
+        top: 70%; 
+        left: 20%; 
+        transform: translateY(-50%); /* Centraliza verticalmente */
+        width: 60%;
+        min-height: 200px;
+    }
+    
+    #cover-text > h2 {
+        font-size: 30px;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    #cover-text > p {
+        align-items: center;
+        text-align: center;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     /* Benefits section */
     
@@ -299,6 +328,29 @@ footer {
         #benefits h3 {
             font-size: 25px;
             margin: 15px 0;
+        }
+
+        /* About me section */
+        #cover-text {
+            position: absolute;
+            top: 90%; 
+            left: 20%; 
+            transform: translateY(-50%); /* Centraliza verticalmente */
+            width: 60%;
+            min-height: 200px;
+        }
+        
+        #cover-text > h2 {
+            font-size: 30px;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        #cover-text > p {
+            align-items: center;
+            text-align: center;
+            font-size: 25px;
         }
     }
 }
