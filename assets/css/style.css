@@ -273,6 +273,10 @@ form textarea::placeholder{
     color: #ffffff;
 }
 
+h2 {
+    text-align: center;
+}
+
 /* Media query: tablets and larger (860px and up) */
 @media screen and (min-width: 860px) {
     /* header */
