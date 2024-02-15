@@ -85,7 +85,7 @@ nav {
 /* Main content */
 main {
     flex: 1 0 auto;
-    margin-top: 75px;
+    margin-top: 0px;
     background-color: #000000;
 }
 
@@ -103,7 +103,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: 14vh;
     background-color: #0e469b;
 }
 
@@ -204,6 +204,21 @@ footer {
 #cover-text > p {
     padding: 20px;
 }
+
+#zanao-img img {
+    padding: ;
+    display: flex;
+    width: 45%;
+    height: auto;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.personal-text p {
+    line-height: 1.6;
+    text-align: center;
+}
+
 /* Media query: tablets and larger (860px and up) */
 @media screen and (min-width: 860px) {
     /* header */
@@ -278,6 +293,16 @@ footer {
         align-items: center;
         text-align: center;
     }
+
+    #zanao-img img {
+        display: flex;
+        width: 30%;
+    }
+
+    .personal-text p {
+        text-align: justify;
+        line-height: 1.6;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -328,6 +353,7 @@ footer {
     #benefits h3 {
         font-size: 25px;
         margin: 15px 0;
+        justify-content: flex-start;
     }
 
     /* About me section */
@@ -351,5 +377,15 @@ footer {
         align-items: center;
         text-align: center;
         font-size: 25px;
+    }
+
+    #zanao-img img {
+        display: flex;
+        width: 30%;
+    }
+
+    .personal-text p {
+        text-align: justify;
+        line-height: 1.6;
     }
 }
