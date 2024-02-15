@@ -94,6 +94,33 @@ main {
     position: relative;
 }
 
+/* Reasons section */
+#reaspersonal-textons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#personal-text h2 {
+    margin: 20px;
+    text-align: center;
+    font-size: 150%;
+}
+
+#customized-program > div,
+#technical-correction > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #4e4e4e;
+    margin: 5px 0;
+}
+
 /* Footer */
 
 footer {
