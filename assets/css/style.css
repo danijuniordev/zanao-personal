@@ -282,75 +282,74 @@ footer {
 
 @media screen and (min-width: 1200px) {
     /* Benefits section */
-    
-        .text-h2 {
-            text-align: center;
-            font-size: 25px;
-            margin: 20px;
-        }
-    
-        #benefits {
-            display: flex;
-            flex-direction:column;
-            justify-content: space-around;
-            align-items: center;
-            padding: 40px 2%;
-        }
-    
-        #technical-correction, #customized-program {
-            justify-content: space-around;
-            align-items: center;
-        }
-    
-        #benefits i {
-            color: #0e469b;
-            font-size: 40px
-        }
-    
-        .border {
-            padding: 60px;
-            margin-bottom: 20px;
-            border-radius: 20px;
-            transition: 0.7s;
-        }
-    
-        .border:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 8px #0e469b;
-        }
-    
-        #benefits p {
-            letter-spacing: 1px;
-            text-align: left;
-            padding: 10px;
-        }
-        
-        #benefits h3 {
-            font-size: 25px;
-            margin: 15px 0;
-        }
 
-        /* About me section */
-        #cover-text {
-            position: absolute;
-            top: 90%; 
-            left: 20%; 
-            transform: translateY(-50%); /* Centraliza verticalmente */
-            width: 60%;
-            min-height: 200px;
-        }
-        
-        #cover-text > h2 {
-            font-size: 30px;
-            align-items: center;
-            text-align: center;
-            padding: 20px;
-        }
-        
-        #cover-text > p {
-            align-items: center;
-            text-align: center;
-            font-size: 25px;
-        }
+    .text-h2 {
+        text-align: center;
+        font-size: 25px;
+        margin: 20px;
+    }
+
+    #benefits {
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px 2%;
+    }
+
+    #technical-correction, #customized-program {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #benefits i {
+        color: #0e469b;
+        font-size: 40px
+    }
+
+    .border {
+        padding: 60px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        transition: 0.7s;
+    }
+
+    .border:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 8px #0e469b;
+    }
+
+    #benefits p {
+        letter-spacing: 1px;
+        text-align: left;
+        padding: 10px;
+    }
+    
+    #benefits h3 {
+        font-size: 25px;
+        margin: 15px 0;
+    }
+
+    /* About me section */
+    #cover-text {
+        position: absolute;
+        top: 90%; 
+        left: 20%; 
+        transform: translateY(-50%); /* Centraliza verticalmente */
+        width: 60%;
+        min-height: 200px;
+    }
+    
+    #cover-text > h2 {
+        font-size: 30px;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    #cover-text > p {
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
     }
 }
