@@ -224,7 +224,7 @@ footer {
     background-image: url("../images/darkgym.png");
     background-size: cover;
     background-position: 75%;
-    padding: 450px 10% 0 10%;
+    padding: 250px;
     flex-grow: 1;
 }
 
@@ -239,12 +239,12 @@ form {
 
 form input, form textarea {
     width: 100%;
-    background-color: #56565671;
+    background-color: #c0c0c071;
     border: 0;
     outline: 0;
     padding: 20px 15px;
     border-radius: 15px;
-    color: #ffffff;
+    color: #000000;
     font-size: 18px;
 }
 
@@ -263,6 +263,14 @@ form #sender input {
     background-color: #0e469b;
     font-weight: 700px;
     cursor: pointer;
+}
+
+form input::placeholder {
+    color: #ffffff;
+}
+
+form textarea::placeholder{
+    color: #ffffff;
 }
 
 /* Media query: tablets and larger (860px and up) */
