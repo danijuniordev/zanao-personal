@@ -219,6 +219,15 @@ footer {
     text-align: center;
 }
 
+/* Form section */
+#signup {
+    background-image: url("../images/darkgym.png");
+    background-size: cover;
+    background-position: 100%;
+    padding: 800px 10% 0 10%;
+    flex-grow: 1;
+}
+
 /* Media query: tablets and larger (860px and up) */
 @media screen and (min-width: 860px) {
     /* header */
