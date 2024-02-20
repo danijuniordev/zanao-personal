@@ -82,13 +82,6 @@ nav {
     font-size: 2rem;
 }
 
-/* Main content */
-main {
-    flex: 1 0 auto;
-    margin-top: 0px;
-    background-color: #000000;
-}
-
 /* Hero section */
 
 #hero {
@@ -191,7 +184,7 @@ footer {
     position: absolute;
     top: 50%; 
     left: 0%; 
-    transform: translateY(-50%); /* Centraliza verticalmente */
+    transform: translateY(-50%);
     width: 60%;
     min-height: 200px;
 }
@@ -219,13 +212,24 @@ footer {
     text-align: center;
 }
 
+main {
+    background-color: #000000;
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Form section */
+
 #signup {
     background-image: url("../images/darkgym.png");
     background-size: cover;
     background-position: 75%;
-    padding: 250px;
+    padding: 20px 10% 0% 10%;
     flex-grow: 1;
+    display: flex;
+    align-items: center;
 }
 
 form {
@@ -237,14 +241,20 @@ form {
     gap: 10px;
 }
 
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.311);
+    padding: 30px;   
+}
+
 form input, form textarea {
     width: 100%;
     background-color: #c0c0c071;
     border: 0;
     outline: 0;
-    padding: 20px 15px;
+    padding: 10px 10px;
     border-radius: 15px;
-    color: #000000;
+    color: #ffffff;
     font-size: 18px;
 }
 
@@ -273,14 +283,13 @@ form textarea::placeholder{
     color: #ffffff;
 }
 
-h2 {
+form h2 {
     text-align: center;
 }
 
 /* Media query: tablets and larger (860px and up) */
 @media screen and (min-width: 860px) {
     /* header */
-
     nav {
         display: block;
         position: relative;
@@ -309,6 +318,7 @@ h2 {
 
     main {
         margin-top: 75px;
+        flex: 1 0 auto;
     }
 
     /* Benefits section */
@@ -335,7 +345,7 @@ h2 {
         position: absolute;
         top: 70%; 
         left: 20%; 
-        transform: translateY(-50%); /* Centraliza verticalmente */
+        transform: translateY(-50%);
         width: 60%;
         min-height: 200px;
     }
@@ -419,7 +429,7 @@ h2 {
         position: absolute;
         top: 90%; 
         left: 20%; 
-        transform: translateY(-50%); /* Centraliza verticalmente */
+        transform: translateY(-50%);
         width: 60%;
         min-height: 200px;
     }
