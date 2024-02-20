@@ -83,11 +83,24 @@ nav {
 }
 
 /* Hero section */
+#cover-text-img {
+    background-color: #0e469bb3;
+    font-size: 130%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    min-height: 26px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 26px;
+}
 
 #hero {
     height: 750px; 
     width: 100%;
-    background: url("../images/personal3.webp") no-repeat center center;
+    background: url("../images/personal3.webp") no-repeat center center/cover;
     background-color: black;
     position: relative;
 }
@@ -414,6 +427,22 @@ button:hover {
     .personal-text p {
         text-align: justify;
         line-height: 1.6;
+    }
+
+    /* hero section */
+    #cover-text-img {
+        background-color: #0e469bb3;
+        text-align: center;
+        font-size: 130%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        min-height: 26px;
+        padding-top: 26px;
+        padding-bottom: 26px;
+        padding-left: 26px;
     }
 }
 
