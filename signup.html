@@ -33,12 +33,13 @@
 
 <main>
     <section id="signup">
-        <form id="signup-form"action="">
+        <form id="signup-form" method="POST" action="https://danijuniordev.github.io/zanao-personal/submit.html">
             <h2><span><i class="fa-solid fa-envelope-open"></i></span> Let's get you signed up!</h2>
             <input type="text" name="" id="" placeholder="Name:" required>
             <input type="email" name="" id="" placeholder="E-mail:" required>
             <input type="text" name="" id="" placeholder="Phone:" required>
             <textarea name="" id="" placeholder="Your message:"></textarea required>
+            <input type="hidden" name="_next" value="https://danijuniordev.github.io/zanao-personal/submit.html">
             <div id="sender"><input type="submit" value="Submit"></div>
         </form>
     </section>
