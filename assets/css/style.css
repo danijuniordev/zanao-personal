@@ -85,7 +85,7 @@ nav {
 /* Hero section */
 
 #hero {
-    height: 650px;
+    height: 600px;
     width: 100%;
     background: url("../images/running.webp") no-repeat center center;
     background-color: black;
@@ -174,7 +174,7 @@ footer {
 /* Hero section about me*/
 
 #hero-about {
-    height: 650px;
+    height: 600px;
     width: 100%;
     background: url("../images/background-about.png") no-repeat center center;
     position: relative;
