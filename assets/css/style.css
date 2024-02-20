@@ -167,6 +167,7 @@ footer {
 .social-media i {
     font-size: 25px;
     margin: 15px;
+    margin-bottom: 0;
     color: #0e469b;
 }
 
