@@ -37,6 +37,12 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
+    display: inline-block;
+}
+
+header a:hover {
+    color: #0e469b;
+    transform: scale(1.08);
 }
 
 #menu {
@@ -51,12 +57,14 @@ header a {
 }
 
 .active {
-    color: #0e469b;
+    border-bottom: 3px solid #0e469b;
 }
 
 span {
     color: #0e469b;
 }
+
+
 
 /* Navbar styles with dropdown toggle */
 nav {
