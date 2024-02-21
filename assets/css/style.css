@@ -229,7 +229,6 @@ footer {
 main {
     background-color: #000000;
     flex: 1 0 auto;
-    margin-top: 38px;
     display: flex;
     flex-direction: column;
 }
@@ -374,7 +373,7 @@ button:hover {
     }
 
     main {
-        margin-top: 70px;
+        margin-top: 38px;
         flex: 1 0 auto;
     }
 
