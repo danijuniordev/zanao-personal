@@ -292,7 +292,7 @@ form #sender {
 form #sender input {
     width: 120px;
     background-color: #0e469b;
-    font-weight: 700px;
+    font-weight: 700;
     cursor: pointer;
 }
 
@@ -321,7 +321,7 @@ form h2 {
 }
 
 #submit-page {
-    text-align: center
+    text-align: center;
     font-size: 25px;
     margin: 80px auto;
 }
