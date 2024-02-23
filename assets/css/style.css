@@ -22,6 +22,10 @@ h1, h2, h3 {
     letter-spacing: 2px;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #000000;
@@ -324,32 +328,28 @@ form h2 {
     text-align: center;
     font-size: 25px;
     margin: 80px auto;
+    margin-top: 150px;
 }
 
 #submit-p {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-button {
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 700;
-    background-color: #0e469b;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-}
-
-#submit-button {
-    padding-top: 60px;
-    text-align: center;
-}
-
-button:hover {
+#submit-button:hover {
     box-shadow: 0px 0px 10px #0e469b;
 }
 
+#submit-button {
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px 40px;
+    background-color: #0e469b;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
 
 /* Media query: tablets and larger (860px and up) */
 @media screen and (min-width: 860px) {
