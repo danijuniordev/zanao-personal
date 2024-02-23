@@ -26,3 +26,29 @@ Create a fully functional and customized website, adding a personal touch. This 
 * The nav bar changes size and is readable when changing dimensions.
 
 ![Screenshot of the Navbar](documents/readme_images/navbar.png)
+
+### Home - landing page.
+* The webpage features a captivating hero image, complemented by an inspiring motivational phrase. This impactful combination sets the tone for a positive and engaging user experience.
+* A section that clarifies and details the program designed by a personal trainer.
+
+![Screenshot of the home page](documents/readme_images/homepage1.png)
+![Screenshot of the home page](documents/readme_images/homepage2.png)
+![Screenshot of the home page](documents/readme_images/homepage3.png)
+
+### About Me. 
+* A captivating hero image paired with a powerful phrase encapsulating my unique and effective work methodology.
+* 1 section featuring a personal photo accompanied by a brief narrative about myself, highlighting my journey and extensive experience as a dedicated personal trainer.
+
+![Screenshot of the about me page](documents/readme_images/aboutme1.png)
+![Screenshot of the about me page](documents/readme_images/aboutme2.png)
+
+### Contact Us page.
+* Background image and a complete contact form.
+
+![Screenshot of the contact page](documents/readme_images/contactpage.png)
+
+### Thank you page.
+
+* After completing the form, upon submission, you will be directed to the thank-you page.
+
+![Screenshot of the contact page](documents/readme_images/thankyou.png)
