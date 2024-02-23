@@ -108,7 +108,7 @@ nav {
 }
 
 #hero {
-    height: 750px; 
+    height: 850px; 
     width: 100%;
     background: url("../images/personal3.webp") no-repeat center center/cover;
     background-color: black;
@@ -119,7 +119,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 14vh;
+    height: 10vh;
     background-color: #0e469b;
 }
 
@@ -202,7 +202,7 @@ footer {
 /* Hero section about me*/
 
 #hero-about {
-    height: 750px;
+    height: 850px;
     width: 100%;
     background: url("../images/background-about.png") no-repeat center center;
     position: relative;
