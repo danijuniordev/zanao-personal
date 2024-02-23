@@ -88,7 +88,7 @@ Create a fully functional and customized website, adding a personal touch. This 
   ![Screenshot of the contact page](documents/readme_images/formtest3.png)
   ![Screenshot of the contact page](documents/readme_images/formtest4.png)
 
-### Validator Testing.
+## Validator Testing.
 
 * HTML
   *  I can confirm that all HTML on each page has passed without error in the official [W3C Validator](https://validator.w3.org/#validate_by_input)
@@ -96,7 +96,7 @@ Create a fully functional and customized website, adding a personal touch. This 
 * CSS
   *  I can confirm that all CSS has passed without error in the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-### Bugs.
+## Bugs.
 
 There are no unfixed bugs on the website. 
 
