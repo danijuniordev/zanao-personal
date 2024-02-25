@@ -8,7 +8,7 @@ Welcome to Thiago Zanao's Personal Trainer portfolio, your gateway to exploring 
 
 This webpage is designed to be a simple yet effective platform for a personal trainer. With responsiveness built into its design, it ensures accessibility across a wide range of devices.
 
-## USER GOAL
+### USER GOAL
 To clearly see what the Zanao Personal services are.
 Explore Your Customized Program: Tailored Fitness Solutions Just for You.
 Motivation and Accountability: Empowering Your Fitness Journey with Inspiration and Commitment.
@@ -27,7 +27,7 @@ Create a fully functional and customized website, adding a personal touch. This 
 
 ![Screenshot of the Navbar](documents/readme_images/navbar.png)
 
-### Home - Page.
+### Home.
 * The webpage features a captivating hero image, complemented by an inspiring motivational phrase. This impactful combination sets the tone for a positive and engaging user experience.
 * A section that clarifies and details the program designed by a personal trainer.
 
@@ -35,19 +35,19 @@ Create a fully functional and customized website, adding a personal touch. This 
 ![Screenshot of the home page](documents/readme_images/homepage2.png)
 ![Screenshot of the home page](documents/readme_images/homepage3.png)
 
-### About Me - Page. 
+### About Me. 
 * A captivating hero image paired with a powerful phrase encapsulating my unique and effective work methodology.
 * 1 section featuring a personal photo accompanied by a brief narrative about myself, highlighting my journey and extensive experience as a dedicated personal trainer.
 
 ![Screenshot of the about me page](documents/readme_images/aboutme1.png)
 ![Screenshot of the about me page](documents/readme_images/aboutme2.png)
 
-### Contact Me - Page.
+### Contact Me.
 * Background image and a complete contact form.
 
 ![Screenshot of the contact page](documents/readme_images/contactpage.png)
 
-### Thank you - Page.
+### Thank you.
 
 * After completing the form, upon submission, you will be directed to the thank-you page.
 
@@ -59,21 +59,21 @@ Create a fully functional and customized website, adding a personal touch. This 
 
 ![Screenshot of the contact page](documents/readme_images/footer.png)
 
-## Technologies
+### Technologies
 
-* VSCode - Used for all the coding.
 * HTML: The structure of the website.
 * CSS: Styling using custom CSS.
-* GitHub: Source code hosting and deployment.
-* Git: Version control.
-* Font Awesome: Icons for social media links.
-* Favicon.io: Favicon creation.
-* Adobe Photoshop: Adobe Photoshop was used for resizing images for the website
-* Pexels (a free stock photo site): Photos from Pexels were used for styling the headers of the page.
-* Am I Responsive?: To show the website image on a range of devices.
-* OpenAI Chat: Assisting with grammar errors.
+* [VSCode:](https://code.visualstudio.com/) Used for all the coding.
+* [GitHub:](https://github.com/) Source code hosting and deployment.
+* [Git:](https://git-scm.com/) Version control.
+* [Font Awesome:](https://fontawesome.com/) Icons for social media links.
+* [Favicon.io:](http://favicon.io/) Favicon creation.
+* [Adobe Photoshop:](https://www.adobe.com/products/photoshop-elements.html) Adobe Photoshop was used for resizing images for the website
+* [Pexels (a free stock photo site):](https://pexels.com/) Photos from Pexels were used for styling the headers of the page.
+* [Am I Responsive?:](https://ui.dev/amiresponsive) To show the website image on a range of devices.
+* [OpenAI Chat:](https://chat.openai.com/) Assisting with grammar errors.
 
-## Testing
+### Testing
 
 * The website has been tested changing the sizes and using navigation bar on follow browsers: Chrome, Microsoft Edge, Opera, Firefox, Safari.
 * For mobile testing, Google Chrome DevTools were utilized, and additional testing was conducted on a personal iPhone 11 Pro.
@@ -87,8 +87,9 @@ Create a fully functional and customized website, adding a personal touch. This 
   ![Screenshot of the contact page](documents/readme_images/formtest2.png)
   ![Screenshot of the contact page](documents/readme_images/formtest3.png)
   ![Screenshot of the contact page](documents/readme_images/formtest4.png)
+  ![Screenshot of the contact page](documents/readme_images/formtest5.png)
 
-## Validator Testing.
+### Validator Testing.
 
 * HTML
   *  I can confirm that all HTML on each page has passed without error in the official [W3C Validator](https://validator.w3.org/#validate_by_input)
@@ -96,7 +97,12 @@ Create a fully functional and customized website, adding a personal touch. This 
 * CSS
   *  I can confirm that all CSS has passed without error in the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-## Bugs.
+### Accessibility. 
+
+Scores for accessibility on each page is Green and in the 90's.
+![Screenshot of Accessibility](documents/readme_images/lighthouse.png)
+
+### Bugs.
 
 There are no unfixed bugs on the website. 
 
@@ -109,6 +115,7 @@ The project was deployed to GitHub Pages. These steps were followed:
 * Then selected **Pages** on the left hand menu,
 * Under **Source** I selected **Deploy from a branch**,
 * Finally, under **branch** I set it to **main** - **root** and save.
+![Screenshot of Deployed](documents/readme_images/deployed.png)
 
 The live website can be found here: <https://danijuniordev.github.io/zanao-personal/>
 
@@ -117,5 +124,7 @@ The live website can be found here: <https://danijuniordev.github.io/zanao-perso
 1. **Base Code reference**
  -  Love Running project
 2. **Readme References**
-- [Volnei Photography Journey GitHub](https://github.com/Volneirj/photographermiguelcardeal)
-- [cniblock Zebra Law GitHub](https://github.com/cniblock/Project_1)
+ - [Volnei Photography Journey GitHub](https://github.com/Volneirj/photographermiguelcardeal)
+ - [cniblock Zebra Law GitHub](https://github.com/cniblock/Project_1)
+3. **My mentor**
+ - Dick Vlaanderen 
