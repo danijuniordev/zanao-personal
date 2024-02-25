@@ -42,6 +42,7 @@ header a {
     text-decoration: none;
     color: inherit;
     display: inline-block;
+    font-size: 12px;
 }
 
 header a:hover {
@@ -272,7 +273,10 @@ form {
 #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.311);
-    padding: 30px;   
+    border-radius: 20px;
+    padding: 20px; 
+    margin-top: 65px;
+    margin-bottom: 65px;
 }
 
 form input, form textarea {
@@ -386,6 +390,10 @@ form h2 {
     main {
         margin-top: 38px;
         flex: 1 0 auto;
+    }
+
+    header a {
+        font-size: 18px;
     }
 
     /* Benefits section */
