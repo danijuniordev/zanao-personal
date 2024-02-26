@@ -8,14 +8,14 @@ Welcome to Thiago Zanao's Personal Trainer portfolio, your gateway to exploring 
 
 This webpage is designed to be a simple yet effective platform for a personal trainer. With responsiveness built into its design, it ensures accessibility across a wide range of devices.
 
-### USER GOAL
+### User goal
 To clearly see what the Zanao Personal services are.
 Explore Your Customized Program: Tailored Fitness Solutions Just for You.
 Motivation and Accountability: Empowering Your Fitness Journey with Inspiration and Commitment.
 Technical Corrections: Ensuring Precision and Effectiveness in Your Fitness Program
 Variety and Progression: Elevate Your Fitness Experience with Diverse Workouts and Steady Advancement.
 
-#### Returning Visitor Goals
+### Returning Visitor Goals
 Create a fully functional and customized website, adding a personal touch. This platform not only enhances the owner's professional image but also provides users with the option to easily initiate contact and establish communication channels.
 
 ## FEATURES OF THE WEBSITE
@@ -59,7 +59,7 @@ Create a fully functional and customized website, adding a personal touch. This 
 
 ![Screenshot of the contact page](documents/readme_images/footer.png)
 
-### Technologies
+### Technologies:
 
 * HTML: The structure of the website.
 * CSS: Styling using custom CSS.
@@ -73,7 +73,7 @@ Create a fully functional and customized website, adding a personal touch. This 
 * [Am I Responsive?:](https://ui.dev/amiresponsive) To show the website image on a range of devices.
 * [OpenAI Chat:](https://chat.openai.com/) Assisting with grammar errors.
 
-### Testing
+### Testing:
 
 * The website has been tested changing the sizes and using navigation bar on follow browsers: Chrome, Microsoft Edge, Opera, Firefox, Safari.
 * For mobile testing, Google Chrome DevTools were utilized, and additional testing was conducted on a personal iPhone 11 Pro.
@@ -123,14 +123,14 @@ Scores for accessibility on each page is Green and in the 90's.
 * Finally, under **branch** I set it to **main** - **root** and save.
 ![Screenshot of Deployed](documents/readme_images/deployed.png)
 
-**Forking the GitHub Repository**
+**Forking the GitHub Repository:**
 
 * Find the repository you want to fork.
 * Click on the **Fork** button,
 * Wait for the forking process,
 * Once the fork is complete, you will be redirected to the page of your new repository. The name will be something like "YourName/OriginalRepo.
 
-**Cloning the GitHub Repository**
+**Cloning the GitHub Repository:**
 
 * Find the relevant GitHub repository.
 * Press the arrow on the **Code** button,
@@ -142,7 +142,7 @@ Scores for accessibility on each page is Green and in the 90's.
 
 The live website can be found here: <https://danijuniordev.github.io/zanao-personal/>
 
-## Credits.
+## Credits:
 
 1. **Base Code reference**
  -  Love Running project
