@@ -102,7 +102,15 @@ Create a fully functional and customized website, adding a personal touch. This 
 ### Accessibility. 
 
 Scores for accessibility on each page is Green and in the 90's.
-![Screenshot of Accessibility](documents/readme_images/lighthouse.png)
+
+**Home Page**
+![Screenshot of Accessibility Home Page](documents/readme_images/homelighthouse.png)
+
+**About Me Page**
+![Screenshot of Accessibility About Me Page](documents/readme_images/aboutmelighthouse.png)
+
+**Contact Page**
+![Screenshot of Accessibility Contact Page](documents/readme_images/contactlighthouse.png)
 
 ## Deployment.
 
