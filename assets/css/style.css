@@ -112,7 +112,7 @@ nav {
 #hero {
     height: 850px; 
     width: 100%;
-    background: url("../images/personal3.webp") no-repeat center center/cover;
+    background: url("../images/backgroundimg.png") no-repeat center center/cover;
     background-color: black;
     position: relative;
 }
@@ -253,7 +253,7 @@ main {
 /* Form section */
 
 #signup {
-    background-image: url("../images/darkgym.png");
+    background-image: url("../images/backgroundform.png");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0% 10%;
@@ -322,7 +322,7 @@ form h2 {
 
 /* Submit section */
 #submit-section {
-    background-image: url("../images/submit.webp");
+    background-image: url("../images/thankyou.png");
     background-size: cover;
     background-position: 80%;
     padding: 20px 10% 0% 10%;

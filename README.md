@@ -78,6 +78,8 @@ Create a fully functional and customized website, adding a personal touch. This 
 * The website has been tested changing the sizes and using navigation bar on follow browsers: Chrome, Microsoft Edge, Opera, Firefox, Safari.
 * For mobile testing, Google Chrome DevTools were utilized, and additional testing was conducted on a personal iPhone 11 Pro.
 * Responsive design has been implemented and tested on standard screen sizes using the device toolbar in Google Chrome DevTools.
+* All links in the navigation bar have been tested and are functioning perfectly.
+* All links in the footer of the page have been tested and are functioning perfectly.
 * On the contact page, on the form had been checked:
   1. Not accepted has been flagged for missing information.
   2. The email input only accepts the email format.
@@ -102,13 +104,9 @@ Create a fully functional and customized website, adding a personal touch. This 
 Scores for accessibility on each page is Green and in the 90's.
 ![Screenshot of Accessibility](documents/readme_images/lighthouse.png)
 
-### Bugs.
-
-There are no unfixed bugs on the website. 
-
 ## Deployment.
 
-The project was deployed to GitHub Pages. These steps were followed:
+**The project was deployed to GitHub Pages. These steps were followed:**
 
 * Login in to your **Github**.
 * From my GitHub project I went to **Settings**,
@@ -116,6 +114,23 @@ The project was deployed to GitHub Pages. These steps were followed:
 * Under **Source** I selected **Deploy from a branch**,
 * Finally, under **branch** I set it to **main** - **root** and save.
 ![Screenshot of Deployed](documents/readme_images/deployed.png)
+
+**Forking the GitHub Repository**
+
+* Find the repository you want to fork.
+* Click on the **Fork** button,
+* Wait for the forking process,
+* Once the fork is complete, you will be redirected to the page of your new repository. The name will be something like "YourName/OriginalRepo.
+
+**Cloning the GitHub Repository**
+
+* Find the relevant GitHub repository.
+* Press the arrow on the **Code** button,
+* Copy the **link** that is shown in the drop-down,
+* Open the terminal, 
+* Move to the folder you want clone it,
+* In the terminal type **'git clone'** & then paste the link you copied in GitHub,
+* Press enter and your local clone will be created.
 
 The live website can be found here: <https://danijuniordev.github.io/zanao-personal/>
 
