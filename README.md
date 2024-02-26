@@ -20,14 +20,14 @@ Create a fully functional and customized website, adding a personal touch. This 
 
 ## FEATURES OF THE WEBSITE
 
-### Navigation.
+### Navigation
 * Page links are centrally positioned in the header, subtly offset to the right for a visually appealing and user-friendly navigation experience.
 * The page links feature a responsive design with a 'hover' animation, lighting up in a vibrant blue color when users hover over them. Once clicked, a distinct 'active' animation is applied, ensuring clarity by displaying a persistent blue border bottom to indicate the current page and enhance user navigation.
 * The nav bar changes size and is readable when changing dimensions.
 
 ![Screenshot of the Navbar](documents/readme_images/navbar.png)
 
-### Home.
+### Home
 * The webpage features a captivating hero image, complemented by an inspiring motivational phrase. This impactful combination sets the tone for a positive and engaging user experience.
 * A section that clarifies and details the program designed by a personal trainer.
 
@@ -35,31 +35,31 @@ Create a fully functional and customized website, adding a personal touch. This 
 ![Screenshot of the home page](documents/readme_images/homepage2.png)
 ![Screenshot of the home page](documents/readme_images/homepage3.png)
 
-### About Me. 
+### About Me
 * A captivating hero image paired with a powerful phrase encapsulating my unique and effective work methodology.
 * 1 section featuring a personal photo accompanied by a brief narrative about myself, highlighting my journey and extensive experience as a dedicated personal trainer.
 
 ![Screenshot of the about me page](documents/readme_images/aboutme1.png)
 ![Screenshot of the about me page](documents/readme_images/aboutme2.png)
 
-### Contact Me.
+### Contact Me
 * Background image and a complete contact form.
 
 ![Screenshot of the contact page](documents/readme_images/contactpage.png)
 
-### Thank you.
+### Thank you
 
 * After completing the form, upon submission, you will be directed to the thank-you page.
 
 ![Screenshot of the contact page](documents/readme_images/thankyou.png)
 
-### Footer.
+### Footer
 
 * The social media links are contained in the footer and are links to respective external social media links.
 
 ![Screenshot of the contact page](documents/readme_images/footer.png)
 
-### Technologies:
+### Technologies
 
 * HTML: The structure of the website.
 * CSS: Styling using custom CSS.
@@ -73,7 +73,7 @@ Create a fully functional and customized website, adding a personal touch. This 
 * [Am I Responsive?:](https://ui.dev/amiresponsive) To show the website image on a range of devices.
 * [OpenAI Chat:](https://chat.openai.com/) Assisting with grammar errors.
 
-### Testing:
+### Testing
 
 * The website has been tested changing the sizes and using navigation bar on follow browsers: Chrome, Microsoft Edge, Opera, Firefox, Safari.
 * For mobile testing, Google Chrome DevTools were utilized, and additional testing was conducted on a personal iPhone 11 Pro.
@@ -91,7 +91,7 @@ Create a fully functional and customized website, adding a personal touch. This 
   ![Screenshot of the contact page](documents/readme_images/formtest4.png)
   ![Screenshot of the contact page](documents/readme_images/formtest5.png)
 
-### Validator Testing.
+### Validator Testing
 
 * HTML
   *  I can confirm that all HTML on each page has passed without error in the official [W3C Validator](https://validator.w3.org/#validate_by_input)
@@ -99,9 +99,9 @@ Create a fully functional and customized website, adding a personal touch. This 
 * CSS
   *  I can confirm that all CSS has passed without error in the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-### Accessibility. 
+### Lighthouse Testing
 
-Scores for accessibility on each page is Green and in the 90's.
+Used google developer tools, Lighthouse testing was also conducted on each of the pages. The results are as below:
 
 **Home Page**
 ![Screenshot of Accessibility Home Page](documents/readme_images/homelighthouse.png)
@@ -112,7 +112,7 @@ Scores for accessibility on each page is Green and in the 90's.
 **Contact Page**
 ![Screenshot of Accessibility Contact Page](documents/readme_images/contactlighthouse.png)
 
-## Deployment.
+## Deployment
 
 **The project was deployed to GitHub Pages. These steps were followed:**
 
@@ -142,7 +142,7 @@ Scores for accessibility on each page is Green and in the 90's.
 
 The live website can be found here: <https://danijuniordev.github.io/zanao-personal/>
 
-## Credits:
+## Credits
 
 1. **Base Code reference**
  -  Love Running project
@@ -150,4 +150,4 @@ The live website can be found here: <https://danijuniordev.github.io/zanao-perso
  - [Volnei Photography Journey GitHub](https://github.com/Volneirj/photographermiguelcardeal)
  - [cniblock Zebra Law GitHub](https://github.com/cniblock/Project_1)
 3. **My mentor**
- - Dick Vlaanderen 
+ - [Dick Vlaanderen](https://github.com/dickvla) 
