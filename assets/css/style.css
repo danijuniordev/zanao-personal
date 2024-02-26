@@ -158,7 +158,6 @@ nav {
 }
 
 /* Footer */
-
 footer {
     margin-top: auto;
 }
@@ -202,7 +201,6 @@ footer {
 }
 
 /* Hero section about me*/
-
 #hero-about {
     height: 850px;
     width: 100%;
@@ -251,7 +249,6 @@ main {
 }
 
 /* Form section */
-
 #signup {
     background-image: url("../images/backgroundform.png");
     background-size: cover;
@@ -398,7 +395,6 @@ form h2 {
     }
 
     /* Benefits section */
-
     #customized-program, 
     #technical-correction {
         display: flex;
@@ -416,7 +412,6 @@ form h2 {
     }
 
     /* about section */
-
     #cover-text {
         position: absolute;
         top: 70%; 
@@ -462,7 +457,6 @@ form h2 {
 
 @media screen and (min-width: 1200px) {
     /* Benefits section */
-
     .text-h2 {
         text-align: center;
         font-size: 25px;
@@ -510,7 +504,7 @@ form h2 {
         margin: 15px 0;
         justify-content: flex-start;
     }
-
+    
     /* About me section */
     #cover-text {
         position: absolute;
